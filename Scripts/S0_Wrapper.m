@@ -57,19 +57,19 @@ S2_Data;
 %    This script estimates the BSQVAR equation-by-equation.
 %
 %    In addition, it produces the following figures from the paper:
-%     - C.1: Euro area and U.S. time series
-%     - D.1: Posterior inference for the euro area, omega(gamma)
-%     - D.2: Posterior inference for the euro area, A0(gamma)
-%     - D.3-D.6: Posterior inference for the euro area, A1(gamma)-A4(gamma)
-%     - D.7: Posterior inference for the euro area exogenous variables, C(gamma)
-%     - D.8: Posterior inference for the euro area dummy variables, B(gamma)
-%     - D.9: Posterior means for the euro area tightness parameter, lambda(gamma)
-%     - F.1: Posterior inference for the U.S., omega(gamma)
-%     - F.2: Posterior inference for the U.S., A0(gamma)
-%     - F.3-F.6: Posterior inference for the U.S., A1(gamma)-A4(gamma)
-%     - F.7: Posterior inference for the U.S. exogenous variables, C(gamma)
-%     - F.8: Posterior inference for the U.S. dummy variables, B(gamma)
-%     - F.9: Posterior means for the U.S. tightness parameter, lambda(gamma)
+%     - E.1: Euro area and U.S. time series
+%     - G.1: Posterior inference for the euro area, omega(gamma)
+%     - G.2: Posterior inference for the euro area, A0(gamma)
+%     - G.3-G.6: Posterior inference for the euro area, A1(gamma)-A4(gamma)
+%     - G.7: Posterior inference for the euro area exogenous variables, C(gamma)
+%     - G.8: Posterior inference for the euro area dummy variables, B(gamma)
+%     - G.9: Posterior means for the euro area tightness parameter, lambda(gamma)
+%     - H.1: Posterior inference for the U.S., omega(gamma)
+%     - H.2: Posterior inference for the U.S., A0(gamma)
+%     - H.3-H.6: Posterior inference for the U.S., A1(gamma)-A4(gamma)
+%     - H.7: Posterior inference for the U.S. exogenous variables, C(gamma)
+%     - H.8: Posterior inference for the U.S. dummy variables, B(gamma)
+%     - H.9: Posterior means for the U.S. tightness parameter, lambda(gamma)
 
 S3_Estimation;
 
@@ -91,7 +91,7 @@ S3_Estimation;
 %
 %    In addition, it produces the following figures from the paper:
 %     - 1: Quantile impulse response estimates
-%     - F.10: U.S. quantile impulse response estimates
+%     - H.10: U.S. quantile impulse response estimates
 
 S4_QIRF;
 
@@ -103,7 +103,7 @@ S4_QIRF;
 %
 %    In addition, it produces the following figures from the paper:
 %     - 2: The financial cycle in two different experiments
-%     - D.10: Posterior distributions of moments in counterfactual policy
+%     - G.10: Posterior distributions of moments in counterfactual policy
 %     scenario
 
 S5_Counterfactual;
